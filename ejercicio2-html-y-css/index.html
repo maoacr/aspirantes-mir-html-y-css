@@ -8,6 +8,34 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+  <div class="container">
+    <form action="">
+      <h1>Login</h1>
+      <fieldset>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" value="">
+      </fieldset>
+
+      <fieldset>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" value="">
+      </fieldset>
+      
+      <fieldset>
+        <label for="genere">Género</label>
+        <select name="genere" id="genere">
+          <option value="Hombre">Hombre</option>
+          <option value="Mujer">Mujer</option>
+        </select>
+      </fieldset>
+
+      <fieldset id="termns-container">
+        <input type="checkbox" name="termns" id="termns-checkbox">
+        <label for="termns">Acepto los terminos</label>  
+      </fieldset>
+
+      <button type="submit">Ingresar</button>
+    </form>
+  </div>
 </body>
 </html>
